@@ -4,7 +4,10 @@
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
-    ]
+    ],
+    "props":{
+      "inverted": true
+    }
   },
   "menu-item#category-apparel": {
     "props": {

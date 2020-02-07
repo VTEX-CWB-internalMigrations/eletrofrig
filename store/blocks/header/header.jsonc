@@ -1,16 +1,20 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop",
-      "header-row#2-desktop",
+      // "header-row#1-desktop",
+      // "header-row#2-desktop",
       "header-row#3-desktop",
-      "header-row#4-desktop"
+      "header-row#4-desktop",
+      "header-row#5-desktop"
     ]
   },
 
@@ -34,19 +38,16 @@
   },
   "header-row#3-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#websites",
       "header-spacer",
       "vtex.menu@2.x:menu#institutional"
     ],
     "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
+      "blockClass": "menu-link"
     }
   },
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "header-spacer",
       "search-bar",
@@ -65,6 +66,14 @@
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
       "width": "180"
+    }
+  },
+  "header-row#5-desktop":{
+    "children":[
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props":{
+      "inverted": true
     }
   },
   "header-layout.mobile": {
