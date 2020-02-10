@@ -24,7 +24,6 @@
 
 .label {
   color: #929292;
-  font-size: 20px;
 }
 
 .inputGroup {
@@ -45,7 +44,6 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
   color: #fff;
   border: none;
   margin-right: -24px;
@@ -64,12 +62,31 @@
   margin: 1rem 0;
 }
 
+.newsletter .form{
+  display: flex;
+  align-content: space-between;
+}
+
+.newsletter .form .label{
+  color: #929292;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.imageElement--middleBanner{
+  max-width: 1500px;
+  display: flex;
+  margin: 30px auto;
+}
+
+.newsletter .container{
+  padding: 25px 0px;
+}
+
 @media only screen and (min-width: 640px) {
 
-
-  .label {
-    font-size: 40px;
-  }
 
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;

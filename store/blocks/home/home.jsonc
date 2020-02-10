@@ -17,22 +17,26 @@
   },
   "image#middleBanner1": {
     "props": {
-      "src": ""
+      "src": "",
+      "blockClass": "middleBanner"
     }
   },
   "image#middleBanner2": {
     "props": {
-      "src": ""
+      "src": "",
+      "blockClass": "middleBanner"
     }
   },
   "image#middleBanner3": {
     "props": {
-      "src": ""
+      "src": "",
+      "blockClass": "middleBanner"
     }
   },
   "image#middleBanner4": {
     "props": {
-      "src": ""
+      "src": "",
+      "blockClass": "middleBanner"
     }
   },
   "shelf#home": {
