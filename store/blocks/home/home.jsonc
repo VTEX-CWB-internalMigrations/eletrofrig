@@ -4,13 +4,13 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#shelf1",
+      "flex-layout.row#shelf",
       "image#middleBanner1",
-      "flex-layout.row#shelf2",
+      "flex-layout.row#shelf",
       "image#middleBanner2",
-      "flex-layout.row#shelf3",
+      "flex-layout.row#shelf",
       "image#middleBanner3",
-      "flex-layout.row#shelf4",
+      "flex-layout.row#shelf",
       "image#middleBanner4",
       "newsletter"
     ]
