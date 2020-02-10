@@ -73,7 +73,9 @@
     ]
   },
   "vtex.menu@2.x:menu#menuSubmenu": {
-    "props": {}
+    "props": {
+      "orientation": "vertical"
+    }
   },
   "menu-item#category-apparel": {
     "props": {
