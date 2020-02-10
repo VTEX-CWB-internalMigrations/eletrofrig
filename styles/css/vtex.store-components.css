@@ -14,8 +14,7 @@
 }
 
 .newsletter {
-  background-color: #03054E;
-  max-width: 1528px;
+  background-color: #d0d0d0;
   margin: 0 auto;
 }
 
@@ -24,8 +23,8 @@
 }
 
 .label {
-  color: #fff;
-  font-size: 26px;
+  color: #929292;
+  font-size: 20px;
 }
 
 .inputGroup {
@@ -66,9 +65,7 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
+
 
   .label {
     font-size: 40px;
