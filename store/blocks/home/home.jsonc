@@ -4,18 +4,33 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#shelf",
-      "image#middleBanner",
-      "flex-layout.row#shelf",
-      "image#middleBanner",
-      "flex-layout.row#shelf",
-      "image#middleBanner",
-      "flex-layout.row#shelf",
-      "image#middleBanner",
+      "flex-layout.row#shelf1",
+      "image#middleBanner1",
+      "flex-layout.row#shelf2",
+      "image#middleBanner2",
+      "flex-layout.row#shelf3",
+      "image#middleBanner3",
+      "flex-layout.row#shelf4",
+      "image#middleBanner4",
       "newsletter"
     ]
   },
-  "image#middleBanner": {
+  "image#middleBanner1": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#middleBanner2": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#middleBanner3": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#middleBanner4": {
     "props": {
       "src": ""
     }
