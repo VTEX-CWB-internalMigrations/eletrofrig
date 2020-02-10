@@ -1,12 +1,15 @@
 {
   "header": {
     "blocks": [
-      "header-layout.desktop", 
+      "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -17,16 +20,18 @@
       "header-row#5-desktop"
     ]
   },
-
   "header-row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-
   "header-row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+      "notification.bar#home"
+    ],
     "props": {
       "fullWidth": "true"
     }
@@ -49,9 +54,8 @@
     "children": [
       "logo#desktop",
       "header-spacer",
-      "header-spacer",
       "search-bar",
-      "locale-switcher",
+      "header-spacer",
       "login",
       "minicart.v2"
     ],
@@ -68,16 +72,20 @@
       "width": "180"
     }
   },
-  "header-row#5-desktop":{
-    "children":[
-      "vtex.menu@2.x:menu#category-menu"
+  "header-row#5-desktop": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#main-menu",
+      "header-spacer"
     ],
-    "props":{
+    "props": {
       "inverted": true
     }
   },
   "header-layout.mobile": {
-    "children": ["header-row#1-mobile"]
+    "children": [
+      "header-row#1-mobile"
+    ]
   },
   "header-row#1-mobile": {
     "children": [
@@ -93,9 +101,10 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
@@ -106,7 +115,6 @@
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",

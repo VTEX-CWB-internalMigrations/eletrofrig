@@ -1,13 +1,79 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "vtex.menu@2.x:menu#main-menu": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#ar-condicionado",
+      "menu-item#fujitsu",
+      "menu-item#daikin",
+      "menu-item#springer"
     ],
-    "props":{
+    "props": {
+      "blockClass": "topMenu",
       "inverted": true
     }
+  },
+  "menu-item#ar-condicionado": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMain"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/ar-condicionado",
+        "noFollow": false,
+        "tagTitle": "Ar Condicionado",
+        "text": "Ar Condicionado"
+      }
+    }
+  },
+  "menu-item#fujitsu": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMain"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/fujitsu",
+        "noFollow": false,
+        "tagTitle": "Fujitsu",
+        "text": "Fujitsu"
+      }
+    }
+  },
+  "menu-item#daikin": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMain"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/daikin",
+        "noFollow": false,
+        "tagTitle": "Daikin",
+        "text": "Daikin"
+      }
+    }
+  },
+  "menu-item#springer": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMain"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/springer",
+        "noFollow": false,
+        "tagTitle": "Springer",
+        "text": "Springer"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#submenuMain": {
+    "children": [
+      "vtex.menu@2.x:menu#menuSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuSubmenu": {
+    "props": {}
   },
   "menu-item#category-apparel": {
     "props": {
