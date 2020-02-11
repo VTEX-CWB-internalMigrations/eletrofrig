@@ -73,10 +73,25 @@
   },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "footer-spacer",
+      "flex-layout.col#foooterPayment",
+      "footer-spacer",
+      "footer-spacer",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#foooterPayment": {
+    "children": [
+      "rich-text#paymentTitle",
+      "accepted-payment-methods"
+    ]
+  },
+  "rich-text#paymentTitle": {
+    "props": {
+      "text": "######Pagamentos"
     }
   },
   "accepted-payment-methods": {
@@ -90,10 +105,29 @@
   },
   "flex-layout.row#footer-3-desktop": {
     "children": [
-      "rich-text#footer"
+      "footer-spacer",
+      "flex-layout.col#footerText",
+      "footer-spacer",
+      "flex-layout.col#footerLogo",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "credits"
+    }
+  },
+  "flex-layout.col#footerText": {
+    "children": [
+      "rich-text#footer"
+    ]
+  },
+  "flex-layout.col#footerLogo": {
+    "children": [
+      "rich-text#contactLogo"
+    ]
+  },
+  "rich-text#contactLogo": {
+    "props": {
+      "text": "VTEX Logo here"
     }
   },
   "rich-text#footer": {
