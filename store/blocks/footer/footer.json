@@ -45,7 +45,8 @@
   },
   "rich-text#iframeFacebook": {
     "props": {
-      "text": "add yout facebook iframe here"
+      "text": "add yout facebook iframe here",
+      "blockClass": "iframeFacebook"
     }
   },
   "social-networks": {
