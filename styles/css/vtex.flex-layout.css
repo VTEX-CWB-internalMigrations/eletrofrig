@@ -35,3 +35,8 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--credits{
+  background: #d0d0d0;
+  margin-top: 20px;
+}

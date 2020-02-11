@@ -91,7 +91,7 @@
   },
   "rich-text#paymentTitle": {
     "props": {
-      "text": "######Pagamentos"
+      "text": ""
     }
   },
   "accepted-payment-methods": {
