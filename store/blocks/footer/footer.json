@@ -34,7 +34,7 @@
   "rich-text#contactFooter": {
     "props": {
       "text": "add your contact text aqui",
-      "blockClass": ""
+      "blockClass": "contactText"
     }
   },
   "flex-layout.col#footerThree": {
